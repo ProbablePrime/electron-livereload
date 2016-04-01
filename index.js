@@ -2,8 +2,6 @@
 
 var slice = [].slice;
 
-require('coffee-script/register');
-
 var server = require('./lib/server');
 var client = require('./lib/client');
 
