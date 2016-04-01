@@ -11,8 +11,5 @@
   "license": "ISC",
   "dependencies": {
     "ws": "^0.8.0"
-  },
-  "devDependencies": {
-    "coffee-script": "^1.10.0"
   }
 }
