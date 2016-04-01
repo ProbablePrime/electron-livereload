@@ -11,7 +11,7 @@ module.exports = {
     args = 1 <= arguments.length ? slice.call(arguments, 0) : [];
     return new server(args);
   },
-  client: function(browser, port) {
-    new client(browser, port);
+  client: function(browser, port, bounds, url) {
+    new client(browser, port, bounds, url);
   }
 };
